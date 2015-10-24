@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<script type="text/javascript">
+function a()
+{
+	alert("HEllo alert");
+}
+function b()
+{
+	document.write("HEllo Documt");
+}
+function c()
+{
+	var r=confirm("Press a button");
+if (r==true)
+  {
+  alert("You pressed OK!");
+  }
+else
+  {
+  alert("You pressed Cancel!");
+  }
+}
+function d()
+{
+	var name=prompt("Please enter your name");
+if (name!=null)
+  {
+  alert("Hello " + name + "! How are you today?");
+  }
+}
+
+</script>
+<meta charset="utf-8">
+<title>Home</title
+></head>
+
+<body>
+<input type="submit" value="alert" onClick="a()">
+<br>
+<input type="submit" value="document_write" onClick="b()">
+<br>
+<input type="submit" value="confirm" onClick="c()">
+<br>
+<input type="submit"  value="prompt" onClick="d()">
+</body>
+</html>
