@@ -1,0 +1,8 @@
+title: MyGitHubPage
+description: 
+google_analytics: UA-69160656-1
+show_downloads: true
+theme: jekyll-theme-architect
+
+gems:
+  - jekyll-mentions
